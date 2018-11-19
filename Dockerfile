@@ -8,3 +8,5 @@ RUN  apt-get install -y ethereum
 
 RUN mkdir voxnet
 RUN cd voxnet
+
+COPY voxnet.json voxnet/voxnet.json
